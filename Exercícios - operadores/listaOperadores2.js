@@ -40,15 +40,15 @@ console.log("");}
 
 console.log("Exercício 5:");
 x+= 5;
-console.log(x);
+console.log(x);// -> 15
 x-= 3;
-console.log(x);
+console.log(x);// -> 12
 x *= 2;
-console.log(x);
+console.log(x);// -> 24
 x /= 4;
-console.log(x);
+console.log(x);// -> 6
 x %= 3;
-console.log(x);
+console.log(x);// -> 0
 console.log("");}
 
 //06
@@ -56,10 +56,10 @@ console.log("");}
 let q = false;
 
 console.log("Exercício 06:")
-console.log(p && q);
-console.log(p || q);
-console.log(!p);
-console.log(!q);
+console.log(p && q);// -> false
+console.log(p || q);// -> true
+console.log(!p);// -> false
+console.log(!q);// -> true
 console.log("");
 }
 
