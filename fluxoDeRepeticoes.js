@@ -76,3 +76,17 @@ function ex8(){
         matrizPessoa += chave + ": " + pessoa[chave] + "; ";
     } console.log(matrizPessoa);
 }//saída: nome: Roberta; idade: 68;
+
+    let escolha = parseInt(prompt("MENU: \n 1- Listar nomes \n 2- Somar valores \n 3- Exibir propriedades \n 4- Contar propriedades \n 5- Concatenar nomes \n 6- Imprimir tipos de dados \n 7- Adicionar 1 na idade \n 8- Converter objeto em array \n Qual você escolhe?"));
+    
+    switch(escolha){
+        case 1: ex1(); break;
+        case 2: ex2(); break;
+        case 3: ex3(); break;
+        case 4: ex4(); break;
+        case 5: ex5(); break;
+        case 6: ex6(); break;
+        case 7: ex7(); break;
+        case 8: ex8(); break;
+        default: console.log("Não há essa opção :(");
+    }
