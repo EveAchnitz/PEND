@@ -104,3 +104,11 @@ function ex12(){
 //Se usar o StepOver: Executa a linha atual e para na próxima, sem entrar dentro de chamadas de função (multiplicará por 3 e somará 1).
 //Se usar o StepInto: Ao chegar em uma chamada de função, “entra” nela e pausa na primeira linha interna (pausará em return m * 3).
 //Se usar o StepOut: Executa o restante da função atual sem parar em suas linhas internas até retornar ao chamador (finaliza e volta para o externo).
+
+//13)
+/*-> externo(4)
+  -> interno(4)
+- A função "externo" chamou a função "interno" que foi executada com o valor 4 e assim a função "externo" resultou no valor 13 (4 * 3 - funcão "interno" chamada pela "externo" que somou mais 1).*/
+
+//14)
+//Basta usar a tecla F8 para continuar a execução do código, na aba “Breakpoints”, ao desmarcar o breakpoint ou clicar com o botão direito e escolher “Remove breakpoint”, você apaga todos.
